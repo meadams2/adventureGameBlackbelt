@@ -36,11 +36,14 @@ askGhost,The ghost is happy to have someone to talk to. You live peacefully as r
 computerScience,The ghost is intrigued and asks to learn more.,Introduce them to Andy,andy,Refer them to chatGPT,chatGPT,Call the ghost stupid.,insultGhost
 anythingElse,The ghost is bored and kills you.,Start over,start,Quit,quit,,
 ghostDied,The ghost takes offense and kills you.,Start over,start ,Quit,quit,,
-openDoor,,,,,,,
-knockDoor,,,,,,,
-furtherLeft2,,,,,,,
+openDoor,There is a very comfortable looking bed.,Take a nap.,nap,Remake the bed.,makeBed,Wash the sheets.,washSheets
+knockDoor,The ghost is very appreciative of your manners. You respect each other's personal space.,Start over,start,Quit,quit,,
+furtherLeft2,A painting falls on you. You die.,Start over,start,Quit,quit,,
 acceptOffer,You live a long peaceful life!,Start over,start,Quit,quit,,
-instagram,,,,,,,
-reddit,,,,,,,
-andy,,,,,,,
-chatGPT,,,,,,,
+instagram,The ghost loves Keeping Up with the Kardashians,Start over,start,Quit,quit,,
+reddit,The ghost is confused by subreddits and kills you.,Start over,start,Quit,quit,,
+andy,The ghost learns a lot about computer science. ,Introduce them to chatGPT,chatGPT,Let them come to class with you,class,,
+chatGPT,The ghost hates it.,Start over,start,Quit,quit,,
+makeBed,The ghost asks if you could wash the sheets,Say no,noSheets,Say yes,washSheets,Call the ghost ugly and stinky,insultGhost
+washSheets,The ghost likes the clean sheets and you live peacefully.,Start over,start,Quit,quit,,
+class,The ghost gets a good grade in computer science.,Start over,start,Quit,quit,,
