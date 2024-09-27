@@ -1,0 +1,46 @@
+Name,Description,Menu A,NodeA,Menu B,NodeB,Menu C ,NodeC
+start,You bought a new Victorian era house.,Explore the inside,inside,Explore the property,property,Wait in the car,car
+inside,"You walk into the main foyer. To your left, there's a hallway. To the right there's another hallway. In the center there's a winding staircase.",Explore the hallway to the left,leftHallway,Explore the hallway to the right,rightHallway,Go up the staircase,stairCase
+property,"You see a barn, a root cellar, and a dilapidated well.",Go into the barn.,barn,Go into the root cellar.,cellar,Look into the well.,well
+car,You are now in the car. You are a coward.,Start over,start,Quit,quit,,
+leftHallway,You see a locked vault and a door to the right of the locked vault.,Try to open the vault,vault,Try to open the door to the right,rightDoor,Turn around and go back to where you started,inside
+rightHallway,"You see a narrow servant's staircase at the end of the hallway. Along the right side, there are 2 doors. ",Go up the servant's staircase,stairCase2,Open door 1.,door1,Open door 2.,door2
+stairCase,You get to a landing. There's a hallway to the left and a hallway to the right.,Go to the left,left ,Go to the right,right,,
+vault,The vault is now open. ,Go inside,insideVault,"No thank you, I'm creeped out. ",leftHallway,Close vault behind you.,closeVault
+rightDoor,The door swings open. ,Go inside,insideRightDoor,Close door behind you. ,closeRightDoor,Nah man I'm out.,leftHallway
+stairCase2,There's a landing at the at the second floor.,Check out the second floor,secondFloor,Keep going up.,goUp,This staircase is sketchy,rightHallway
+door1,A ghost turns around and shrieks at you to get out.,Get out,getOut,Talk to the ghost,talkGhost,Call the ghost stinky and ugly,insultGhost
+door2,You find a comfy looking bed.,Take a nap,nap,Check out the room further,investigate,Leave room.,rightHallway
+left ,You find a children's playroom. ,Go inside,insidePlayroom,Go further down hallway,furtherLeft,Go back to staircase landing.,stairCase
+right,You find a library with a bunch of dusty books.,Go inside,insideLibrary,Go further down hallway,furtherRight,Go back to staircase landing.,stairCase
+insideVault,There is a recently dead body in the vault.,Get out of the vault,leftHallway,Poke body.,poke,Investigate vault further,investigateVault
+closeVault,Why would you do that? You are now trapped with a body and run out of oxygen,Start over,start,Quit,quit,,
+insideRightDoor,A ghost comes up and offers you tea,Take the tea,takeTea,Refuse tea,refuseTea,Call the ghost stinky and ugly,insultGhost
+closeRightDoor,You are trapped inside with a ghost.,Have a tea party with the ghost.,ghostTea,Introduce the ghost to TikTok,ghostTikTok,Call the ghost stinky and ugly,insultGhost
+secondFloor,You find a closet,Open closet,openCloset,Keep exploring floor,keepExploring,Go back to the servant stair case,stairCase2
+goUp,You find the attic. There is a ghost crying.,Ask why the ghost is crying,askGhost,Leave,rightHallway,Call the ghost stinky and ugly.,insultGhost
+getOut,You fall and hit your head while in a rush to get out.,Start over,start,Quit,quit,,
+talkGhost,The ghost was lonely and needed someone to talk to. ,Talk about computer science.,computerScience,Talk about literallly anything else,anythingElse,Ask how the ghost died.,ghostDied
+insultGhost,The ghost takes offense and kills you.,Start over,start,Quit,quit,,
+nap,A ghost comes in and kills you while you sleep,Start over,start,Quit,quit,,
+investigate,You find a strange trapdoor,Go inside trapdoor,trapDoor,Nah man. ,rightHallway,,
+insidePlayroom,A ghost child is rocking on a rocking horse,Play with him,playGhost,Nope. Not happening.,left ,Call the ghost stinky and ugly. ,insultGhost
+furtherLeft,You find another door. The door is unlocked.,Open door,openDoor,Keep going.,furtherLeft2,Knock on door.,knockDoor
+poke,Why would you do that? The ghost of the body kills you.,Start over,start,Quit,quit,,
+investigateVault,The door slams behind you. You die,Start over,start,Quit,quit,,
+takeTea,The ghost is pleased and offers to live with you peacefully,Accept offer,acceptOffer,Call the ghost stinky and ugly,insultGhost,,
+refuseTea,The ghost takes offense and kills you.,Start over,start,Quit,quit,,
+ghostTea,The ghost is pleased and you become great friends,Start over,start ,Quit,quit,,
+ghostTikTok,"The ghost is confused, but ultimately is amused.",Show the ghost instagram,instagram,Show the ghost reddit,reddit,Call the ghost stinky and ugly,insultGhost
+askGhost,The ghost is happy to have someone to talk to. You live peacefully as roommates,Start over,start,Quit,quit,,
+computerScience,The ghost is intrigued and asks to learn more.,Introduce them to Andy,andy,Refer them to chatGPT,chatGPT,Call the ghost stupid.,insultGhost
+anythingElse,The ghost is bored and kills you.,Start over,start,Quit,quit,,
+ghostDied,The ghost takes offense and kills you.,Start over,start ,Quit,quit,,
+openDoor,,,,,,,
+knockDoor,,,,,,,
+furtherLeft2,,,,,,,
+acceptOffer,You live a long peaceful life!,Start over,start,Quit,quit,,
+instagram,,,,,,,
+reddit,,,,,,,
+andy,,,,,,,
+chatGPT,,,,,,,
