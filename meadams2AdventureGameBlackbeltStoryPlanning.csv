@@ -47,3 +47,6 @@ chatGPT,The ghost hates it.,Start over,start,Quit,quit,,
 makeBed,The ghost asks if you could wash the sheets,Say no,noSheets,Say yes,washSheets,Call the ghost ugly and stinky,insultGhost
 washSheets,The ghost likes the clean sheets and you live peacefully.,Start over,start,Quit,quit,,
 class,The ghost gets a good grade in computer science.,Start over,start,Quit,quit,,
+barn,A rattlesnake bites you and you die.,Start over,start,Quit,quit,,
+cellar,The cellar door slams shut behind you. You die.,Start over,start,Quit,quit,,
+well,You fall into the well and die.,Start over,start,Quit,quit,,
